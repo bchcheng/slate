@@ -1,3 +1,4 @@
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/lord/img/master/logo-slate.png" alt="Slate: API Documentation Generator" width="226">
   <br>
@@ -39,15 +40,16 @@ Getting Started with Slate
 You're going to need:
 
  - **Linux or macOS** — Windows may work, but is unsupported.
- - **Ruby, version 2.3.1 or newer**
- - **Bundler** — If Ruby is already installed, but the `bundle` command doesn't work, just run `gem install bundler` in a terminal.
+ - **Ruby, version 2.3.1 or newer** — For Windows, download [RubyInstaller](https://rubyinstaller.org/downloads/). Select **Ruby+Devkit 2.5.X (x64)** from the list of downloads.
+ - **Bundler, version 1.17** — If Ruby is already installed, but the `bundle` command doesn't work, just run `gem install bundler -v 1.17` in a terminal.
 
 ### Getting Set Up
 
 1. Fork this repository on GitHub.
 2. Clone *your forked repository* (not our original one) to your hard drive with `git clone https://github.com/YOURUSERNAME/slate.git`
 3. `cd slate`
-4. Initialize and start Slate. You can either do this locally, or with Vagrant:
+4. Prior to installing, delete the Gemfile.lock file `rm Gemfile.lock`
+5. Initialize and start Slate. You can either do this locally, or with Vagrant:
 
 ```shell
 # either run this to run locally
